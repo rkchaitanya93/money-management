@@ -8,6 +8,7 @@ A Java RESTful API to transfer money between users accounts
 - Jetty Container (for Test and Demo app)
 - Apache HTTP Client
 - JUnit for unit tests and integration tests
+- Postman for testing API endpoints
 
 ### How to run
 ```sh
@@ -27,12 +28,10 @@ Application starts a jetty server on localhost port 8080 An H2 in memory databas
 | GET | /user/all | get all users | 
 | PUT | /user/create | create a new user | 
 | POST | /user/{userId} | update user | 
-| DELETE | /user/{userId} | remove user | 
 | GET | /account/{accountId} | get account by accountId | 
 | GET | /account/all | get all accounts | 
 | GET | /account/{accountId}/balance | get account balance by accountId | 
 | PUT | /account/create | create a new account
-| DELETE | /account/{accountId} | remove account by accountId | 
 | PUT | /account/{accountId}/withdraw/{amount} | withdraw money from account | 
 | PUT | /account/{accountId}/deposit/{amount} | deposit money to account | 
 | POST | /transaction | perform transaction between 2 user accounts | 
