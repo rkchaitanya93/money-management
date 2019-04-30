@@ -70,3 +70,6 @@ Application starts a jetty server on localhost port 8080 An H2 in memory databas
    "toAccountId":2
 }
 ```
+
+#Live Demo
+![Live Demo](demo.gif)
